@@ -1,6 +1,6 @@
 import Footer from "./Footer";
 import Navbar from "./Navbar";
-import { Inter } from 'next/font/google'
+import { Inter } from '@next/font'
 
 const inter = Inter({ subsets: ['latin'] })
 
