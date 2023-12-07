@@ -1,17 +1,13 @@
-import Footer from '../components/Footer'
-import Navbar from '../components/Navbar'
+import Layout from '../components/Layout'
 import '../styles/globals.css'
 import { Inter } from 'next/font/google'
 
 const inter = Inter({ subsets: ['latin'] })
-function MyApp({ Component, pageProps }) {
+
+export default function MyApp({ Component, pageProps }) {
   return (
-    <div className={inter.className}>
-      <Navbar />
+    <Layout>
       <Component {...pageProps} />
-      <Footer />
-    </div>
+    </Layout>
   )
 }
-
-export default MyApp
