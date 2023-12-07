@@ -1,8 +1,9 @@
 # Project Pemrograman WEB - Labti
 
-Nama    : Muhamad Ibnu Khaidar Hafiz
-Kelas   : 3IA15
-NPM     : 50421867
+
+- Nama    : Muhamad Ibnu Khaidar Hafiz
+- Kelas   : 3IA15
+- NPM     : 50421867
 
 ## Untuk mulai
 
