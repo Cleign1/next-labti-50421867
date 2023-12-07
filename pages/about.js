@@ -3,7 +3,7 @@ export default function about() {
         <>
         <div className="bg-blue-200 min-h-screen p-8">
             <div className="max-w-2xl mx-auto">
-                <h1 className="text-4xl font-bold mb-4">About Me</h1>
+                <h1 className="text-4xl font-bold mb-4">About This Project</h1>
                 <p className="text-lg mb-6">
                     Nama    : Muhamad Ibnu Khaidar Hafiz <br/>
                     Kelas   : 3IA15 <br/>
