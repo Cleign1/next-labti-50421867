@@ -13,7 +13,7 @@ export default function Layout({ children }) {
     return (
         <div className={inter.className}>
             <Navbar />
-            <main className="bg-blue-200">{children}</main>
+            <main>{children}</main>
             <Footer />
         </div>
     )
