@@ -55,8 +55,8 @@ const ToDo = () => {
                         <tbody>
                             {todos.map((todo, index) => (
                                 <tr key={index} className={todo.completed ? 'line-through text-gray-400' : ''}>
-                                    <td className="border border-black border-2 px-6 py-3">{todo.text}</td>
-                                    <td className="border border-black border-2 px-6 py-3 space-x-3">
+                                    <td className="border-white border-2 px-6 py-3">{todo.text}</td>
+                                    <td className="border-white border-2 px-6 py-3 space-x-3">
                                         <button onClick={() => toggleCompleted(index)} className="bg-green-400 text-white px-4 py-2 rounded-md hover:bg-green-500">Complete</button>
                                         <button onClick={() => deleteToDo(index)} className="bg-red-400 text-white px-4 py-2 rounded-md hover:bg-red-500">Delete</button>
                                     </td>
