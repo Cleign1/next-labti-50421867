@@ -2,7 +2,8 @@ export default function about() {
     return (
         <>
         <div>
-        <div className="bg-gradient-to-r from-red-700 to-indigo-700 min-h-screen p-8 text-white">
+        <div className="bg-gradient-to-r from-red-700 to-indigo-700 
+            min-h-screen p-8 text-white">
             <div className="max-w-2xl mx-auto p-6 border-4 rounded-3xl">
                 <h1 className="text-4xl font-bold mb-4">About This Project</h1>
                 <p className="text-lg mb-6">
